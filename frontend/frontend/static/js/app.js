@@ -4,7 +4,7 @@
 */
 (function(){
   // lee API_BASE_URL desde el scope global de cada HTML
-  const API = typeof API_BASE_URL !== 'undefined' ? API_BASE_URL : 'http://127.0.0.1:5000';
+  const API = typeof API_BASE_URL !== 'undefined' ? API_BASE_URL : 'https://legendary-space-spoon-pj96x7wg7pjhrprp-4729.app.github.dev"';
 
   // helper: get auth headers si hay token
   function authHeaders(extra){
